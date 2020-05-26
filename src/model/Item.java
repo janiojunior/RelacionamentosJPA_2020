@@ -16,10 +16,6 @@ public class Item extends DefaultEntity<Item> {
 	private String descricao;
 	
 	@ManyToOne
-	@JoinColumn(name = "idcarrinho", nullable=false)
-	private Carrinho carrinho;
-
-//	@ManyToOne
 	private Livro livro;
 
 	public float getValor() {

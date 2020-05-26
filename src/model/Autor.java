@@ -10,7 +10,7 @@ public class Autor extends DefaultEntity<Autor>{
 	
 	@OneToOne
 	private PessoaFisica pessoaFisica;
-
+	
 	public PessoaFisica getPessoaFisica() {
 		return pessoaFisica;
 	}
@@ -18,5 +18,5 @@ public class Autor extends DefaultEntity<Autor>{
 	public void setPessoaFisica(PessoaFisica pessoaFisica) {
 		this.pessoaFisica = pessoaFisica;
 	}
-	
+
 }

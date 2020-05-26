@@ -4,6 +4,8 @@ import java.util.Date;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
@@ -27,7 +29,7 @@ public class Livro extends DefaultEntity<Livro> {
 	private double valor;
 
 	@ManyToMany
-	private List<Autor> autor;
+	private List<Autor> listaAutor;
 
 	@ManyToOne
 	private Editora editora;
@@ -88,12 +90,12 @@ public class Livro extends DefaultEntity<Livro> {
 		this.valor = valor;
 	}
 
-	public List<Autor> getAutor() {
-		return autor;
+	public List<Autor> getListaAutor() {
+		return listaAutor;
 	}
 
-	public void setAutor(List<Autor> autor) {
-		this.autor = autor;
+	public void setListaAutor(List<Autor> listaAutor) {
+		this.listaAutor = listaAutor;
 	}
 
 	public Editora getEditora() {

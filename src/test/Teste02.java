@@ -11,6 +11,10 @@ import model.PessoaFisica;
 
 public class Teste02 {
 	
+	/**
+	 * @author janio
+	 * Teste de relacionamento OneToOne Unidirecional usando foreign key em campo NAO primary key
+	 */
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("RelacionamentosJPA_2020");
 		EntityManager em = emf.createEntityManager();

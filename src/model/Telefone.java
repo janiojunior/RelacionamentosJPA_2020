@@ -10,7 +10,7 @@ public class Telefone extends DefaultEntity<Telefone> {
 	private String codigoArea;
 
 	private String numero;
-
+	
 	public String getCodigoArea() {
 		return codigoArea;
 	}
