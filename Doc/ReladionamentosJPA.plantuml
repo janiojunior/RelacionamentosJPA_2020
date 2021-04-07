@@ -1,0 +1,144 @@
+'Inicio do documento
+@startuml RelacionamentosJPA
+'Layout
+
+!define DARKRED
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class Autor {
+    - id:Integer
+}
+
+class Carrinho {
+   - id: Integer
+   - data: Date
+}
+
+class Cidade {
+   - id: Integer
+   - nome: String
+}
+
+class Cliente {
+   - id: Integer
+}
+
+class Editora {
+   - id: Integer
+}
+
+class Endereco {
+   - id: Integer
+   - cep: String
+   - logradouro: String
+   - numero: String
+   - complemento: String
+   - bairro: String
+}
+
+class Estado {
+    - id: Integer
+    - nome: String
+    - sigla: String
+}
+
+class Funcionario {
+    - id: Integer
+    - numeroFuncional: String
+}
+
+class Item {
+   - id: Integer
+   - valor: Double
+   - quantidade: Integer
+   - descricao: String
+}
+
+class Livro {
+   - id: Integer
+   - nome: String
+   - isbn: String
+   - estoque: Integer
+   - dataLancamento: Date
+   - resumo: String
+   - edicao: Integer
+   - valor: Double
+}
+
+class Pessoa {
+   - id: Integer
+   - nome: String
+   - email: String
+   - dataNascimento: Date
+}
+
+class PessoaFisica {
+   - cpf: String
+   - rg: String
+}
+
+class PessoaJuridica {
+   - cnpj: String
+   - razaoSocial: String
+}
+
+class Telefone {
+   - id: Integer
+   - codigoArea: String
+   - numero: String
+}
+
+enum TipoFuncionario {
+    + ADMINISTRADOR: Integer
+    + GERENTE: Integer
+    + OPERACIONAL: Integer 
+}
+
+class Usuario {
+   - id: Integer
+   - login: String
+   - senha: String
+}
+
+class Venda {
+   - id: Integer
+}
+
+
+' RELACIONAMENTOS
+Venda "1" *-->  "*" Item
+
+PessoaFisica -up-|> Pessoa
+PessoaJuridica -up-|> Pessoa
+
+Pessoa "1" *--> "*" Endereco
+
+Endereco "*" o--> "1" Cidade
+
+Cidade "*" --> "1" Estado
+
+Livro "*" --> "*" Autor
+Livro "*" o--> "1" Editora
+
+Item "*" o--> "1" Livro
+
+Funcionario -|> Usuario
+Funcionario "*" --> "1" TipoFuncionario
+Funcionario "1" --> "1" PessoaFisica
+
+Editora "1" --> "1" PessoaJuridica
+
+Cliente -|> Usuario
+Cliente "1" --> "1" Pessoa
+Cliente "*" --> "*" Livro : "listaDesejo"
+
+Autor "1" --> "1" PessoaFisica
+
+Carrinho "1" *--> "*" Item
+Carrinho "1" *--> "1" Venda
+Carrinho "*" --> "1" Cliente
+
+Usuario "1" --> "*" Telefone
+
+
+@enduml

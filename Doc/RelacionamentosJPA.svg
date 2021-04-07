@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1179px" preserveAspectRatio="none" style="width:649px;height:1179px;background:#777777;" version="1.1" viewBox="0 0 649 1179" width="649px" zoomAndPan="magnify"><defs><filter height="300%" id="f1gzeaum9kg6dt" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7b7d686d3dc2c644927357cb508758fd]
+class Autor--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="54.8047" id="Autor" style="stroke: #1B1B1B; stroke-width: 1.5;" width="77" x="147.17" y="644"/><ellipse cx="168.62" cy="657" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M170.745,660.5625 Q170.1669,660.8594 169.5419,661 Q168.9325,661.1563 168.2606,661.1563 Q166.2606,661.1563 165.0887,660.0469 Q163.9169,658.9219 163.9169,657 Q163.9169,655.0781 165.0887,653.9531 Q166.2606,652.8281 168.2606,652.8281 Q168.9325,652.8281 169.5419,652.9844 Q170.1669,653.1406 170.745,653.4375 L170.745,655.0938 Q170.1669,654.7031 169.6044,654.5156 Q169.0419,654.3281 168.4325,654.3281 Q167.3231,654.3281 166.6825,655.0469 Q166.0575,655.75 166.0575,657 Q166.0575,658.2344 166.6825,658.9531 Q167.3231,659.6563 168.4325,659.6563 Q169.0419,659.6563 169.6044,659.4844 Q170.1669,659.2969 170.745,658.9063 L170.745,660.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="30" x="181.72" y="660.8081">Autor</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="148.17" x2="223.17" y1="670" y2="670"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="155.17" y="678"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54" x="164.17" y="684.2104">id:Integer</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="148.17" x2="223.17" y1="690.8047" y2="690.8047"/><!--MD5=[fa41f199839e6a6daec28c6fca3521f1]
+class Carrinho--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="67.6094" id="Carrinho" style="stroke: #1B1B1B; stroke-width: 1.5;" width="82" x="313.67" y="8"/><ellipse cx="328.82" cy="21" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M330.945,24.5625 Q330.3669,24.8594 329.7419,25 Q329.1325,25.1563 328.4606,25.1563 Q326.4606,25.1563 325.2888,24.0469 Q324.1169,22.9219 324.1169,21 Q324.1169,19.0781 325.2888,17.9531 Q326.4606,16.8281 328.4606,16.8281 Q329.1325,16.8281 329.7419,16.9844 Q330.3669,17.1406 330.945,17.4375 L330.945,19.0938 Q330.3669,18.7031 329.8044,18.5156 Q329.2419,18.3281 328.6325,18.3281 Q327.5231,18.3281 326.8825,19.0469 Q326.2575,19.75 326.2575,21 Q326.2575,22.2344 326.8825,22.9531 Q327.5231,23.6563 328.6325,23.6563 Q329.2419,23.6563 329.8044,23.4844 Q330.3669,23.2969 330.945,22.9063 L330.945,24.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="49" x="340.52" y="24.8081">Carrinho</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="314.67" x2="394.67" y1="34" y2="34"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="321.67" y="42"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="330.67" y="48.2104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="321.67" y="54.8047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="330.67" y="61.0151">data: Date</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="314.67" x2="394.67" y1="67.6094" y2="67.6094"/><!--MD5=[0b1628d350daeda1dc91bef617b02ae5]
+class Cidade--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="67.6094" id="Cidade" style="stroke: #1B1B1B; stroke-width: 1.5;" width="97" x="451.17" y="959"/><ellipse cx="477.57" cy="972" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M479.695,975.5625 Q479.1169,975.8594 478.4919,976 Q477.8825,976.1563 477.2106,976.1563 Q475.2106,976.1563 474.0388,975.0469 Q472.8669,973.9219 472.8669,972 Q472.8669,970.0781 474.0388,968.9531 Q475.2106,967.8281 477.2106,967.8281 Q477.8825,967.8281 478.4919,967.9844 Q479.1169,968.1406 479.695,968.4375 L479.695,970.0938 Q479.1169,969.7031 478.5544,969.5156 Q477.9919,969.3281 477.3825,969.3281 Q476.2731,969.3281 475.6325,970.0469 Q475.0075,970.75 475.0075,972 Q475.0075,973.2344 475.6325,973.9531 Q476.2731,974.6563 477.3825,974.6563 Q477.9919,974.6563 478.5544,974.4844 Q479.1169,974.2969 479.695,973.9063 L479.695,975.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="491.77" y="975.8081">Cidade</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="452.17" x2="547.17" y1="985" y2="985"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="459.17" y="993"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="468.17" y="999.2104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="459.17" y="1005.8047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="468.17" y="1012.0151">nome: String</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="452.17" x2="547.17" y1="1018.6094" y2="1018.6094"/><!--MD5=[20a748d5ee336a9a91751b0a3d4f0beb]
+class Cliente--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="54.8047" id="Cliente" style="stroke: #1B1B1B; stroke-width: 1.5;" width="81" x="408.17" y="272"/><ellipse cx="427.37" cy="285" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M429.495,288.5625 Q428.9169,288.8594 428.2919,289 Q427.6825,289.1563 427.0106,289.1563 Q425.0106,289.1563 423.8388,288.0469 Q422.6669,286.9219 422.6669,285 Q422.6669,283.0781 423.8388,281.9531 Q425.0106,280.8281 427.0106,280.8281 Q427.6825,280.8281 428.2919,280.9844 Q428.9169,281.1406 429.495,281.4375 L429.495,283.0938 Q428.9169,282.7031 428.3544,282.5156 Q427.7919,282.3281 427.1825,282.3281 Q426.0731,282.3281 425.4325,283.0469 Q424.8075,283.75 424.8075,285 Q424.8075,286.2344 425.4325,286.9531 Q426.0731,287.6563 427.1825,287.6563 Q427.7919,287.6563 428.3544,287.4844 Q428.9169,287.2969 429.495,286.9063 L429.495,288.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="439.97" y="288.8081">Cliente</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="409.17" x2="488.17" y1="298" y2="298"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="416.17" y="306"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="425.17" y="312.2104">id: Integer</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="409.17" x2="488.17" y1="318.8047" y2="318.8047"/><!--MD5=[98e10016d22457265bccea7dff41d06a]
+class Editora--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="54.8047" id="Editora" style="stroke: #1B1B1B; stroke-width: 1.5;" width="81" x="268.17" y="644"/><ellipse cx="286.92" cy="657" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M289.045,660.5625 Q288.4669,660.8594 287.8419,661 Q287.2325,661.1563 286.5606,661.1563 Q284.5606,661.1563 283.3888,660.0469 Q282.2169,658.9219 282.2169,657 Q282.2169,655.0781 283.3888,653.9531 Q284.5606,652.8281 286.5606,652.8281 Q287.2325,652.8281 287.8419,652.9844 Q288.4669,653.1406 289.045,653.4375 L289.045,655.0938 Q288.4669,654.7031 287.9044,654.5156 Q287.3419,654.3281 286.7325,654.3281 Q285.6231,654.3281 284.9825,655.0469 Q284.3575,655.75 284.3575,657 Q284.3575,658.2344 284.9825,658.9531 Q285.6231,659.6563 286.7325,659.6563 Q287.3419,659.6563 287.9044,659.4844 Q288.4669,659.2969 289.045,658.9063 L289.045,660.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="299.42" y="660.8081">Editora</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="269.17" x2="348.17" y1="670" y2="670"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="276.17" y="678"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="285.17" y="684.2104">id: Integer</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="269.17" x2="348.17" y1="690.8047" y2="690.8047"/><!--MD5=[36c1942e8942a3e4f47e6de3733e3d18]
+class Endereco--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="118.8281" id="Endereco" style="stroke: #1B1B1B; stroke-width: 1.5;" width="142" x="428.67" y="779"/><ellipse cx="469.67" cy="792" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M471.795,795.5625 Q471.2169,795.8594 470.5919,796 Q469.9825,796.1563 469.3106,796.1563 Q467.3106,796.1563 466.1388,795.0469 Q464.9669,793.9219 464.9669,792 Q464.9669,790.0781 466.1388,788.9531 Q467.3106,787.8281 469.3106,787.8281 Q469.9825,787.8281 470.5919,787.9844 Q471.2169,788.1406 471.795,788.4375 L471.795,790.0938 Q471.2169,789.7031 470.6544,789.5156 Q470.0919,789.3281 469.4825,789.3281 Q468.3731,789.3281 467.7325,790.0469 Q467.1075,790.75 467.1075,792 Q467.1075,793.2344 467.7325,793.9531 Q468.3731,794.6563 469.4825,794.6563 Q470.0919,794.6563 470.6544,794.4844 Q471.2169,794.2969 471.795,793.9063 L471.795,795.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="53" x="485.67" y="795.8081">Endereco</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="429.67" x2="569.67" y1="805" y2="805"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="436.67" y="813"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="445.67" y="819.2104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="436.67" y="825.8047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="62" x="445.67" y="832.0151">cep: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="436.67" y="838.6094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="445.67" y="844.8198">logradouro: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="436.67" y="851.4141"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="445.67" y="857.6245">numero: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="436.67" y="864.2188"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="445.67" y="870.4292">complemento: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="436.67" y="877.0234"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="445.67" y="883.2339">bairro: String</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="429.67" x2="569.67" y1="889.8281" y2="889.8281"/><!--MD5=[d8933eb2ae217ae3c21bf6e2973c277f]
+class Estado--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="80.4141" id="Estado" style="stroke: #1B1B1B; stroke-width: 1.5;" width="97" x="451.17" y="1088"/><ellipse cx="477.57" cy="1101" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M479.695,1104.5625 Q479.1169,1104.8594 478.4919,1105 Q477.8825,1105.1563 477.2106,1105.1563 Q475.2106,1105.1563 474.0388,1104.0469 Q472.8669,1102.9219 472.8669,1101 Q472.8669,1099.0781 474.0388,1097.9531 Q475.2106,1096.8281 477.2106,1096.8281 Q477.8825,1096.8281 478.4919,1096.9844 Q479.1169,1097.1406 479.695,1097.4375 L479.695,1099.0938 Q479.1169,1098.7031 478.5544,1098.5156 Q477.9919,1098.3281 477.3825,1098.3281 Q476.2731,1098.3281 475.6325,1099.0469 Q475.0075,1099.75 475.0075,1101 Q475.0075,1102.2344 475.6325,1102.9531 Q476.2731,1103.6563 477.3825,1103.6563 Q477.9919,1103.6563 478.5544,1103.4844 Q479.1169,1103.2969 479.695,1102.9063 L479.695,1104.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="491.77" y="1104.8081">Estado</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="452.17" x2="547.17" y1="1114" y2="1114"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="459.17" y="1122"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="468.17" y="1128.2104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="459.17" y="1134.8047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="468.17" y="1141.0151">nome: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="459.17" y="1147.6094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="468.17" y="1153.8198">sigla: String</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="452.17" x2="547.17" y1="1160.4141" y2="1160.4141"/><!--MD5=[cf98b8104f7f757d2a3327e9c712e420]
+class Funcionario--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="67.6094" id="Funcionario" style="stroke: #1B1B1B; stroke-width: 1.5;" width="162" x="38.67" y="265.5"/><ellipse cx="83.67" cy="278.5" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M85.795,282.0625 Q85.2169,282.3594 84.5919,282.5 Q83.9825,282.6563 83.3106,282.6563 Q81.3106,282.6563 80.1388,281.5469 Q78.9669,280.4219 78.9669,278.5 Q78.9669,276.5781 80.1388,275.4531 Q81.3106,274.3281 83.3106,274.3281 Q83.9825,274.3281 84.5919,274.4844 Q85.2169,274.6406 85.795,274.9375 L85.795,276.5938 Q85.2169,276.2031 84.6544,276.0156 Q84.0919,275.8281 83.4825,275.8281 Q82.3731,275.8281 81.7325,276.5469 Q81.1075,277.25 81.1075,278.5 Q81.1075,279.7344 81.7325,280.4531 Q82.3731,281.1563 83.4825,281.1563 Q84.0919,281.1563 84.6544,280.9844 Q85.2169,280.7969 85.795,280.4063 L85.795,282.0625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="99.67" y="282.3081">Funcionario</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="39.67" x2="199.67" y1="291.5" y2="291.5"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="46.67" y="299.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="55.67" y="305.7104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="46.67" y="312.3047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="55.67" y="318.5151">numeroFuncional: String</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="39.67" x2="199.67" y1="325.1094" y2="325.1094"/><!--MD5=[44a1b4afaef76c16e6c9ec4990ad0c8d]
+class Item--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="93.2188" id="Item" style="stroke: #1B1B1B; stroke-width: 1.5;" width="134" x="238.67" y="253"/><ellipse cx="289.67" cy="266" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M291.795,269.5625 Q291.2169,269.8594 290.5919,270 Q289.9825,270.1563 289.3106,270.1563 Q287.3106,270.1563 286.1387,269.0469 Q284.9669,267.9219 284.9669,266 Q284.9669,264.0781 286.1387,262.9531 Q287.3106,261.8281 289.3106,261.8281 Q289.9825,261.8281 290.5919,261.9844 Q291.2169,262.1406 291.795,262.4375 L291.795,264.0938 Q291.2169,263.7031 290.6544,263.5156 Q290.0919,263.3281 289.4825,263.3281 Q288.3731,263.3281 287.7325,264.0469 Q287.1075,264.75 287.1075,266 Q287.1075,267.2344 287.7325,267.9531 Q288.3731,268.6563 289.4825,268.6563 Q290.0919,268.6563 290.6544,268.4844 Q291.2169,268.2969 291.795,267.9063 L291.795,269.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="25" x="305.67" y="269.8081">Item</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="239.67" x2="371.67" y1="279" y2="279"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="246.67" y="287"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="255.67" y="293.2104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="246.67" y="299.8047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="255.67" y="306.0151">valor: Double</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="246.67" y="312.6094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="111" x="255.67" y="318.8198">quantidade: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="246.67" y="325.4141"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="255.67" y="331.6245">descricao: String</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="239.67" x2="371.67" y1="338.2188" y2="338.2188"/><!--MD5=[f45ed34e1fd2d44e62b0a8e0606f603d]
+class Livro--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="144.4375" id="Livro" style="stroke: #1B1B1B; stroke-width: 1.5;" width="151" x="236.17" y="420"/><ellipse cx="294.67" cy="433" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M296.795,436.5625 Q296.2169,436.8594 295.5919,437 Q294.9825,437.1563 294.3106,437.1563 Q292.3106,437.1563 291.1387,436.0469 Q289.9669,434.9219 289.9669,433 Q289.9669,431.0781 291.1387,429.9531 Q292.3106,428.8281 294.3106,428.8281 Q294.9825,428.8281 295.5919,428.9844 Q296.2169,429.1406 296.795,429.4375 L296.795,431.0938 Q296.2169,430.7031 295.6544,430.5156 Q295.0919,430.3281 294.4825,430.3281 Q293.3731,430.3281 292.7325,431.0469 Q292.1075,431.75 292.1075,433 Q292.1075,434.2344 292.7325,434.9531 Q293.3731,435.6563 294.4825,435.6563 Q295.0919,435.6563 295.6544,435.4844 Q296.2169,435.2969 296.795,434.9063 L296.795,436.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="27" x="310.67" y="436.8081">Livro</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="237.17" x2="386.17" y1="446" y2="446"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="244.17" y="454"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="253.17" y="460.2104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="244.17" y="466.8047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="253.17" y="473.0151">nome: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="244.17" y="479.6094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="253.17" y="485.8198">isbn: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="244.17" y="492.4141"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="94" x="253.17" y="498.6245">estoque: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="244.17" y="505.2188"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="128" x="253.17" y="511.4292">dataLancamento: Date</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="244.17" y="518.0234"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="253.17" y="524.2339">resumo: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="244.17" y="530.8281"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="253.17" y="537.0386">edicao: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="244.17" y="543.6328"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="253.17" y="549.8433">valor: Double</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="237.17" x2="386.17" y1="556.4375" y2="556.4375"/><!--MD5=[ec4e9ac521a71f7b069122f6baf1b57e]
+class Pessoa--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="93.2188" id="Pessoa" style="stroke: #1B1B1B; stroke-width: 1.5;" width="149" x="384.17" y="625"/><ellipse cx="434.17" cy="638" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M436.295,641.5625 Q435.7169,641.8594 435.0919,642 Q434.4825,642.1563 433.8106,642.1563 Q431.8106,642.1563 430.6388,641.0469 Q429.4669,639.9219 429.4669,638 Q429.4669,636.0781 430.6388,634.9531 Q431.8106,633.8281 433.8106,633.8281 Q434.4825,633.8281 435.0919,633.9844 Q435.7169,634.1406 436.295,634.4375 L436.295,636.0938 Q435.7169,635.7031 435.1544,635.5156 Q434.5919,635.3281 433.9825,635.3281 Q432.8731,635.3281 432.2325,636.0469 Q431.6075,636.75 431.6075,638 Q431.6075,639.2344 432.2325,639.9531 Q432.8731,640.6563 433.9825,640.6563 Q434.5919,640.6563 435.1544,640.4844 Q435.7169,640.2969 436.295,639.9063 L436.295,641.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="42" x="450.17" y="641.8081">Pessoa</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="385.17" x2="532.17" y1="651" y2="651"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="392.17" y="659"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="401.17" y="665.2104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="392.17" y="671.8047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="401.17" y="678.0151">nome: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="392.17" y="684.6094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="401.17" y="690.8198">email: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="392.17" y="697.4141"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="401.17" y="703.6245">dataNascimento: Date</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="385.17" x2="532.17" y1="710.2188" y2="710.2188"/><!--MD5=[d3ab6e9d4e55b8cfc3115433358d146e]
+class PessoaFisica--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="67.6094" id="PessoaFisica" style="stroke: #1B1B1B; stroke-width: 1.5;" width="100" x="128.67" y="804.5"/><ellipse cx="140.67" cy="817.5" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M142.795,821.0625 Q142.2169,821.3594 141.5919,821.5 Q140.9825,821.6563 140.3106,821.6563 Q138.3106,821.6563 137.1388,820.5469 Q135.9669,819.4219 135.9669,817.5 Q135.9669,815.5781 137.1388,814.4531 Q138.3106,813.3281 140.3106,813.3281 Q140.9825,813.3281 141.5919,813.4844 Q142.2169,813.6406 142.795,813.9375 L142.795,815.5938 Q142.2169,815.2031 141.6544,815.0156 Q141.0919,814.8281 140.4825,814.8281 Q139.3731,814.8281 138.7325,815.5469 Q138.1075,816.25 138.1075,817.5 Q138.1075,818.7344 138.7325,819.4531 Q139.3731,820.1563 140.4825,820.1563 Q141.0919,820.1563 141.6544,819.9844 Q142.2169,819.7969 142.795,819.4063 L142.795,821.0625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="151.67" y="821.3081">PessoaFisica</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="129.67" x2="227.67" y1="830.5" y2="830.5"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="136.67" y="838.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="145.67" y="844.7104">cpf: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="136.67" y="851.3047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54" x="145.67" y="857.5151">rg: String</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="129.67" x2="227.67" y1="864.1094" y2="864.1094"/><!--MD5=[02dbf2197224a6e75affa36398a9776b]
+class PessoaJuridica--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="67.6094" id="PessoaJuridica" style="stroke: #1B1B1B; stroke-width: 1.5;" width="130" x="263.67" y="804.5"/><ellipse cx="285.12" cy="817.5" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M287.245,821.0625 Q286.6669,821.3594 286.0419,821.5 Q285.4325,821.6563 284.7606,821.6563 Q282.7606,821.6563 281.5888,820.5469 Q280.4169,819.4219 280.4169,817.5 Q280.4169,815.5781 281.5888,814.4531 Q282.7606,813.3281 284.7606,813.3281 Q285.4325,813.3281 286.0419,813.4844 Q286.6669,813.6406 287.245,813.9375 L287.245,815.5938 Q286.6669,815.2031 286.1044,815.0156 Q285.5419,814.8281 284.9325,814.8281 Q283.8231,814.8281 283.1825,815.5469 Q282.5575,816.25 282.5575,817.5 Q282.5575,818.7344 283.1825,819.4531 Q283.8231,820.1563 284.9325,820.1563 Q285.5419,820.1563 286.1044,819.9844 Q286.6669,819.7969 287.245,819.4063 L287.245,821.0625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="298.22" y="821.3081">PessoaJuridica</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="264.67" x2="392.67" y1="830.5" y2="830.5"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="271.67" y="838.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="280.67" y="844.7104">cnpj: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="271.67" y="851.3047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="107" x="280.67" y="857.5151">razaoSocial: String</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="264.67" x2="392.67" y1="864.1094" y2="864.1094"/><!--MD5=[09da7f27b36ab6000039850faa070beb]
+class Telefone--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="80.4141" id="Telefone" style="stroke: #1B1B1B; stroke-width: 1.5;" width="128" x="510.67" y="452"/><ellipse cx="546.67" cy="465" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M548.795,468.5625 Q548.2169,468.8594 547.5919,469 Q546.9825,469.1563 546.3106,469.1563 Q544.3106,469.1563 543.1388,468.0469 Q541.9669,466.9219 541.9669,465 Q541.9669,463.0781 543.1388,461.9531 Q544.3106,460.8281 546.3106,460.8281 Q546.9825,460.8281 547.5919,460.9844 Q548.2169,461.1406 548.795,461.4375 L548.795,463.0938 Q548.2169,462.7031 547.6544,462.5156 Q547.0919,462.3281 546.4825,462.3281 Q545.3731,462.3281 544.7325,463.0469 Q544.1075,463.75 544.1075,465 Q544.1075,466.2344 544.7325,466.9531 Q545.3731,467.6563 546.4825,467.6563 Q547.0919,467.6563 547.6544,467.4844 Q548.2169,467.2969 548.795,466.9063 L548.795,468.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="49" x="562.67" y="468.8081">Telefone</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="511.67" x2="637.67" y1="478" y2="478"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="518.67" y="486"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="527.67" y="492.2104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="518.67" y="498.8047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="527.67" y="505.0151">codigoArea: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="518.67" y="511.6094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="527.67" y="517.8198">numero: String</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="511.67" x2="637.67" y1="524.4141" y2="524.4141"/><!--MD5=[d659d3f585953f3720cc1f592f471c90]
+class TipoFuncionario--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="80.4141" id="TipoFuncionario" style="stroke: #1B1B1B; stroke-width: 1.5;" width="162" x="38.67" y="452"/><ellipse cx="71.82" cy="465" fill="#EB937F" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M68.8356,460.9844 L74.4138,460.9844 L74.4138,462.5469 L70.8981,462.5469 L70.8981,464.0313 L74.195,464.0313 L74.195,465.5938 L70.8981,465.5938 L70.8981,467.4375 L74.5231,467.4375 L74.5231,469 L68.8356,469 L68.8356,460.9844 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="87.52" y="468.8081">TipoFuncionario</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="39.67" x2="199.67" y1="478" y2="478"/><ellipse cx="49.67" cy="489" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="55.67" y="492.2104">ADMINISTRADOR: Integer</text><ellipse cx="49.67" cy="501.8047" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="100" x="55.67" y="505.0151">GERENTE: Integer</text><ellipse cx="49.67" cy="514.6094" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="55.67" y="517.8198">OPERACIONAL: Integer</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="39.67" x2="199.67" y1="524.4141" y2="524.4141"/><!--MD5=[35a64b983c79880384a2fd9b61f0c24b]
+class Usuario--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="80.4141" id="Usuario" style="stroke: #1B1B1B; stroke-width: 1.5;" width="100" x="524.67" y="259.5"/><ellipse cx="550.17" cy="272.5" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M552.295,276.0625 Q551.7169,276.3594 551.0919,276.5 Q550.4825,276.6563 549.8106,276.6563 Q547.8106,276.6563 546.6388,275.5469 Q545.4669,274.4219 545.4669,272.5 Q545.4669,270.5781 546.6388,269.4531 Q547.8106,268.3281 549.8106,268.3281 Q550.4825,268.3281 551.0919,268.4844 Q551.7169,268.6406 552.295,268.9375 L552.295,270.5938 Q551.7169,270.2031 551.1544,270.0156 Q550.5919,269.8281 549.9825,269.8281 Q548.8731,269.8281 548.2325,270.5469 Q547.6075,271.25 547.6075,272.5 Q547.6075,273.7344 548.2325,274.4531 Q548.8731,275.1563 549.9825,275.1563 Q550.5919,275.1563 551.1544,274.9844 Q551.7169,274.7969 552.295,274.4063 L552.295,276.0625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="44" x="564.17" y="276.3081">Usuario</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="525.67" x2="623.67" y1="285.5" y2="285.5"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="532.67" y="293.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="541.67" y="299.7104">id: Integer</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="532.67" y="306.3047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="541.67" y="312.5151">login: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="532.67" y="319.1094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="77" x="541.67" y="325.3198">senha: String</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="525.67" x2="623.67" y1="331.9141" y2="331.9141"/><!--MD5=[06a1f3f399e1919b66bb5cca56e2f0b6]
+class Venda--><rect fill="#2E2E2E" filter="url(#f1gzeaum9kg6dt)" height="54.8047" id="Venda" style="stroke: #1B1B1B; stroke-width: 1.5;" width="81" x="314.17" y="137"/><ellipse cx="335.17" cy="150" fill="#880000" rx="8" ry="8" style="stroke: #1B1B1B; stroke-width: 1.0;"/><path d="M337.295,153.5625 Q336.7169,153.8594 336.0919,154 Q335.4825,154.1563 334.8106,154.1563 Q332.8106,154.1563 331.6388,153.0469 Q330.4669,151.9219 330.4669,150 Q330.4669,148.0781 331.6388,146.9531 Q332.8106,145.8281 334.8106,145.8281 Q335.4825,145.8281 336.0919,145.9844 Q336.7169,146.1406 337.295,146.4375 L337.295,148.0938 Q336.7169,147.7031 336.1544,147.5156 Q335.5919,147.3281 334.9825,147.3281 Q333.8731,147.3281 333.2325,148.0469 Q332.6075,148.75 332.6075,150 Q332.6075,151.2344 333.2325,151.9531 Q333.8731,152.6563 334.9825,152.6563 Q335.5919,152.6563 336.1544,152.4844 Q336.7169,152.2969 337.295,151.9063 L337.295,153.5625 Z "/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="35" x="348.17" y="153.8081">Venda</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="315.17" x2="394.17" y1="163" y2="163"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="322.17" y="171"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="331.17" y="177.2104">id: Integer</text><line style="stroke: #1B1B1B; stroke-width: 1.5;" x1="315.17" x2="394.17" y1="183.8047" y2="183.8047"/><!--MD5=[10c2c750005c48edaaa2ed24fbf6e83f]
+link Venda to Item--><path d="M340.7173,203.3485 C340.7173,203.3485 331.52,228.35 327.07,240.43 " fill="none" id="Venda-Item" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="322.5,252.82,329.3701,245.763,324.2321,248.1296,321.8654,242.9916,322.5,252.82" style="stroke: #FFFFFF; stroke-width: 1.0;"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="324.2321" x2="326.995" y1="248.1296" y2="240.625"/><polygon fill="#FFFFFF" points="344.87,192.09,339.0408,196.335,340.7173,203.3485,346.5465,199.1035,344.87,192.09" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="334.7944" y="210.1838">1</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="318.7906" y="242.3538">*</text><!--MD5=[4990f2aec03860c96dcd149fa2c504b6]
+reverse link Pessoa to PessoaFisica--><path d="M366.04,718.5 C309.95,746.4 248.63,777.02 245.67,779 C234.51,786.48 223.2,795.64 213.13,804.46 " fill="none" id="Pessoa&lt;-PessoaFisica" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="362.96,712.21,383.98,709.57,369.19,724.74,362.96,712.21" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[7aec56e6a96b9d2dd7a764b806281969]
+reverse link Pessoa to PessoaJuridica--><path d="M413.14,734.16 C409.29,739.2 405.44,744.2 401.67,749 C387.17,767.49 370.53,787.74 356.8,804.2 " fill="none" id="Pessoa&lt;-PessoaJuridica" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="407.64,729.83,425.28,718.09,418.81,738.26,407.64,729.83" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[b531cbe7e425af29a21a1ebf78816383]
+link Pessoa to Endereco--><path d="M472.878,729.6648 C472.878,729.6648 479.01,754.34 481.95,766.16 " fill="none" id="Pessoa-Endereco" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="485.09,778.81,486.7955,769.1099,483.8812,773.9583,479.0328,771.044,485.09,778.81" style="stroke: #FFFFFF; stroke-width: 1.0;"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="483.8812" x2="481.955" y1="773.9583" y2="766.2"/><polygon fill="#FFFFFF" points="469.98,718.02,467.5474,724.8084,472.878,729.6648,475.3106,722.8764,469.98,718.02" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="464.1759" y="736.3174">1</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="476.7277" y="768.259">*</text><!--MD5=[3297d38cd03eac22bb409a2de7360978]
+link Endereco to Cidade--><path d="M499.67,910.02 C499.67,910.02 499.67,934.89 499.67,945.79 " fill="none" id="Endereco-Cidade" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="499.67,958.99,503.67,949.99,499.67,953.99,495.67,949.99,499.67,958.99" style="stroke: #FFFFFF; stroke-width: 1.0;"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="499.67" x2="499.67" y1="953.99" y2="945.99"/><polygon fill="#777777" points="499.67,898.02,495.67,904.02,499.67,910.02,503.67,904.02,499.67,898.02" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="493.3231" y="915.8627">*</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="491.9044" y="948.579">1</text><!--MD5=[7ac92fff71ffbf7fc9b0de2d4bf1b126]
+link Cidade to Estado--><path d="M499.67,1027.22 C499.67,1043.96 499.67,1064.49 499.67,1082.56 " fill="none" id="Cidade-&gt;Estado" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="499.67,1087.59,503.67,1078.59,499.67,1082.59,495.67,1078.59,499.67,1087.59" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="493.1356" y="1044.7011">*</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="492.0247" y="1077.2796">1</text><!--MD5=[09a28183472f35a562959d248d832e27]
+link Livro to Autor--><path d="M261.15,564.17 C242.61,590.29 222.58,618.51 207.81,639.32 " fill="none" id="Livro-&gt;Autor" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="204.74,643.64,213.2194,638.6301,207.6408,639.5675,206.7034,633.9888,204.74,643.64" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="249.6308" y="582.4607">*</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="202.8579" y="633.3019">*</text><!--MD5=[f1d6d64eb6d06d3fb3923623ad7eb486]
+link Livro to Editora--><path d="M310.259,576.1681 C310.259,576.1681 309.61,614.79 309.35,630.6 " fill="none" id="Livro-Editora" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="309.13,643.64,313.2778,634.7071,309.2124,638.6407,305.2789,634.5753,309.13,643.64" style="stroke: #FFFFFF; stroke-width: 1.0;"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="309.2124" x2="309.35" y1="638.6407" y2="630.645"/><polygon fill="#777777" points="310.47,564.17,306.3651,570.0988,310.259,576.1681,314.3639,570.2394,310.47,564.17" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="304.0369" y="582.4607">*</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="301.351" y="633.3019">1</text><!--MD5=[e9a247788092378c19696de298ae4cee]
+link Item to Livro--><path d="M307.4922,358.1239 C307.4922,358.1239 308.51,390.52 309.01,406.45 " fill="none" id="Item-Livro" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="309.43,419.7,313.1413,410.5772,309.2707,414.7025,305.1454,410.832,309.43,419.7" style="stroke: #FFFFFF; stroke-width: 1.0;"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="309.2707" x2="309.02" y1="414.7025" y2="406.705"/><polygon fill="#777777" points="307.11,346.13,303.3031,352.2544,307.4922,358.1239,311.2991,351.9995,307.11,346.13" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="300.8711" y="364.4443">*</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="301.8022" y="409.3665">1</text><!--MD5=[a51d5badafaf03318bbd3d6e28e518cc]
+link Funcionario to Usuario--><path d="M159.23,265.49 C180.98,249.04 209.36,231.04 238.17,222.5 C345.13,190.8 385.03,182.52 489.17,222.5 C502.74,227.71 515.49,236.17 526.81,245.62 " fill="none" id="Funcionario-&gt;Usuario" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="531.8,240.7,541.78,259.4,522.32,251,531.8,240.7" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[95ffb065c9cc9e365611b292d4c1c50a]
+link Funcionario to TipoFuncionario--><path d="M119.67,333.68 C119.67,365.08 119.67,412.41 119.67,446.95 " fill="none" id="Funcionario-&gt;TipoFuncionario" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="119.67,451.95,123.67,442.95,119.67,446.95,115.67,442.95,119.67,451.95" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="113.1169" y="351.4088">*</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="112.0028" y="441.4194">1</text><!--MD5=[023bde8bb76bf6cc198bb7cc763efde6]
+link Funcionario to PessoaFisica--><path d="M81.23,333.65 C58.87,355.59 32.78,386.42 20.67,420 C-1.03,480.21 4.1,502.18 20.67,564 C45.46,656.47 109.93,750.03 148.42,800.17 " fill="none" id="Funcionario-&gt;PessoaFisica" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="151.61,804.3,149.2731,794.7324,148.5532,800.3433,142.9423,799.6233,151.61,804.3" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="66.4973" y="351.3733">1</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="137.925" y="793.8474">1</text><!--MD5=[eefc0fc0ea1f6eedcff871d1b0c08ac7]
+link Editora to PessoaJuridica--><path d="M311.89,699.01 C315.16,726.05 320.28,768.28 324.01,799.01 " fill="none" id="Editora-&gt;PessoaJuridica" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="324.64,804.22,327.5028,794.7964,324.0251,799.258,319.5636,795.7802,324.64,804.22" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="304.8253" y="717.0853">1</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="315.9928" y="793.7499">1</text><!--MD5=[cb393155aeb14a71a085aaff86ff784f]
+link Cliente to Usuario--><path d="M489.52,299.5 C494.44,299.5 499.35,299.5 504.26,299.5 " fill="none" id="Cliente-&gt;Usuario" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="none" points="504.45,292.5,524.45,299.5,504.45,306.5,504.45,292.5" style="stroke: #FFFFFF; stroke-width: 1.0;"/><!--MD5=[8a72f9455eae6373e85b5c4b3e6ffd5a]
+link Cliente to Pessoa--><path d="M449.39,327.11 C451.05,388.32 455.14,539.94 457.3,619.66 " fill="none" id="Cliente-&gt;Pessoa" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="457.44,624.81,461.1813,615.6994,457.2972,619.812,453.1846,615.9279,457.44,624.81" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="441.7471" y="345.2084">1</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="449.6566" y="614.3422">1</text><!--MD5=[d238eb71171f91c020bc7e6f14f1ce3b]
+link Cliente to Livro--><path d="M413.39,327.23 C397.39,340.61 379.09,357.82 365.67,376 C356.85,387.96 348.93,401.59 342.04,415.18 " fill="none" id="Cliente-&gt;Livro" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="339.75,419.79,347.3366,413.5096,341.9747,415.3122,340.1721,409.9502,339.75,419.79" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="366.67" y="387.2104">listaDesejo</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="399.0162" y="344.9283">*</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="336.4931" y="409.4663">*</text><!--MD5=[169bf61b55e3a15461d6e4149ae57824]
+link Autor to PessoaFisica--><path d="M184.55,699.01 C183.4,726.05 181.61,768.28 180.31,799.01 " fill="none" id="Autor-&gt;PessoaFisica" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="180.08,804.22,184.4617,795.3995,180.2941,799.2246,176.469,795.057,180.08,804.22" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="176.4816" y="717.0853">1</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="172.6228" y="793.7499">1</text><!--MD5=[1e0fd8299d4b63af53ee554d8e7bcb74]
+link Carrinho to Item--><path d="M321.2468,86.0298 C321.2468,86.0298 301.64,119.51 296.67,137 C287.29,170.06 288.94,208.43 293.21,239.46 " fill="none" id="Carrinho-Item" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="295.25,252.72,297.8381,243.2173,294.4914,247.7779,289.9308,244.4311,295.25,252.72" style="stroke: #FFFFFF; stroke-width: 1.0;"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="294.4914" x2="293.275" y1="247.7779" y2="239.87"/><polygon fill="#FFFFFF" points="327.97,76.09,321.2952,78.8188,321.2468,86.0298,327.9217,83.3009,327.97,76.09" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="315.4019" y="93.8022">1</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="287.1112" y="242.5653">*</text><!--MD5=[9d4e530482498835aee7c0a3cb866364]
+link Carrinho to Venda--><path d="M354.67,88.25 C354.67,88.25 354.67,112.63 354.67,123.61 " fill="none" id="Carrinho-Venda" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="354.67,136.84,358.67,127.84,354.67,131.84,350.67,127.84,354.67,136.84" style="stroke: #FFFFFF; stroke-width: 1.0;"/><line style="stroke: #FFFFFF; stroke-width: 1.0;" x1="354.67" x2="354.67" y1="131.84" y2="123.84"/><polygon fill="#FFFFFF" points="354.67,76.25,350.67,82.25,354.67,88.25,358.67,82.25,354.67,76.25" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="347.0466" y="93.7364">1</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="346.7731" y="126.5532">1</text><!--MD5=[81cf92cd0c746cca3fffce79391d697a]
+link Carrinho to Cliente--><path d="M379.05,76.35 C390.72,93.7 404.01,115.68 412.67,137 C430.23,180.2 440,233.54 444.79,266.8 " fill="none" id="Carrinho-&gt;Cliente" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="445.52,271.96,448.2185,262.488,444.8189,267.0094,440.2975,263.6098,445.52,271.96" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="376.8583" y="93.8543">*</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="436.7328" y="261.2909">1</text><!--MD5=[e5e2617f9258003e93516bb6b55062b9]
+link Usuario to Telefone--><path d="M574.67,339.51 C574.67,370.61 574.67,414.18 574.67,446.61 " fill="none" id="Usuario-&gt;Telefone" style="stroke: #FFFFFF; stroke-width: 1.0;"/><polygon fill="#FFFFFF" points="574.67,451.72,578.67,442.72,574.67,446.72,570.67,442.72,574.67,451.72" style="stroke: #FFFFFF; stroke-width: 1.0;"/><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="7" x="567.0247" y="358.2396">1</text><text fill="#BBBBBB" font-family="Verdana" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="6" x="568.1169" y="441.4336">*</text><!--MD5=[13b03042e95907c65d09c5c5f3a94f3f]
+@startuml RelacionamentosJPA
+'Layout
+
+!define DARKRED
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class Autor {
+    - id:Integer
+}
+
+class Carrinho {
+   - id: Integer
+   - data: Date
+}
+
+class Cidade {
+   - id: Integer
+   - nome: String
+}
+
+class Cliente {
+   - id: Integer
+}
+
+class Editora {
+   - id: Integer
+}
+
+class Endereco {
+   - id: Integer
+   - cep: String
+   - logradouro: String
+   - numero: String
+   - complemento: String
+   - bairro: String
+}
+
+class Estado {
+    - id: Integer
+    - nome: String
+    - sigla: String
+}
+
+class Funcionario {
+    - id: Integer
+    - numeroFuncional: String
+}
+
+class Item {
+   - id: Integer
+   - valor: Double
+   - quantidade: Integer
+   - descricao: String
+}
+
+class Livro {
+   - id: Integer
+   - nome: String
+   - isbn: String
+   - estoque: Integer
+   - dataLancamento: Date
+   - resumo: String
+   - edicao: Integer
+   - valor: Double
+}
+
+class Pessoa {
+   - id: Integer
+   - nome: String
+   - email: String
+   - dataNascimento: Date
+}
+
+class PessoaFisica {
+   - cpf: String
+   - rg: String
+}
+
+class PessoaJuridica {
+   - cnpj: String
+   - razaoSocial: String
+}
+
+class Telefone {
+   - id: Integer
+   - codigoArea: String
+   - numero: String
+}
+
+enum TipoFuncionario {
+    + ADMINISTRADOR: Integer
+    + GERENTE: Integer
+    + OPERACIONAL: Integer 
+}
+
+class Usuario {
+   - id: Integer
+   - login: String
+   - senha: String
+}
+
+class Venda {
+   - id: Integer
+}
+
+
+' RELACIONAMENTOS
+Venda "1" *- ->  "*" Item
+
+PessoaFisica -up-|> Pessoa
+PessoaJuridica -up-|> Pessoa
+
+Pessoa "1" *- -> "*" Endereco
+
+Endereco "*" o- -> "1" Cidade
+
+Cidade "*" - -> "1" Estado
+
+Livro "*" - -> "*" Autor
+Livro "*" o- -> "1" Editora
+
+Item "*" o- -> "1" Livro
+
+Funcionario -|> Usuario
+Funcionario "*" - -> "1" TipoFuncionario
+Funcionario "1" - -> "1" PessoaFisica
+
+Editora "1" - -> "1" PessoaJuridica
+
+Cliente -|> Usuario
+Cliente "1" - -> "1" Pessoa
+Cliente "*" - -> "*" Livro : "listaDesejo"
+
+Autor "1" - -> "1" PessoaFisica
+
+Carrinho "1" *- -> "*" Item
+Carrinho "1" *- -> "1" Venda
+Carrinho "*" - -> "1" Cliente
+
+Usuario "1" - -> "*" Telefone
+
+
+@enduml
+
+@startuml RelacionamentosJPA
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor 880000
+
+
+
+
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 880000
+  borderColor 330000
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 880000
+  borderColor 330000
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor 880000
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor 880000
+  borderColor 330000
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 880000
+  borderColor 330000
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 880000
+  borderColor 330000
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor 880000
+  endColor 330000
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 880000
+  borderColor 330000
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+class Autor {
+    - id:Integer
+}
+
+class Carrinho {
+   - id: Integer
+   - data: Date
+}
+
+class Cidade {
+   - id: Integer
+   - nome: String
+}
+
+class Cliente {
+   - id: Integer
+}
+
+class Editora {
+   - id: Integer
+}
+
+class Endereco {
+   - id: Integer
+   - cep: String
+   - logradouro: String
+   - numero: String
+   - complemento: String
+   - bairro: String
+}
+
+class Estado {
+    - id: Integer
+    - nome: String
+    - sigla: String
+}
+
+class Funcionario {
+    - id: Integer
+    - numeroFuncional: String
+}
+
+class Item {
+   - id: Integer
+   - valor: Double
+   - quantidade: Integer
+   - descricao: String
+}
+
+class Livro {
+   - id: Integer
+   - nome: String
+   - isbn: String
+   - estoque: Integer
+   - dataLancamento: Date
+   - resumo: String
+   - edicao: Integer
+   - valor: Double
+}
+
+class Pessoa {
+   - id: Integer
+   - nome: String
+   - email: String
+   - dataNascimento: Date
+}
+
+class PessoaFisica {
+   - cpf: String
+   - rg: String
+}
+
+class PessoaJuridica {
+   - cnpj: String
+   - razaoSocial: String
+}
+
+class Telefone {
+   - id: Integer
+   - codigoArea: String
+   - numero: String
+}
+
+enum TipoFuncionario {
+    + ADMINISTRADOR: Integer
+    + GERENTE: Integer
+    + OPERACIONAL: Integer 
+}
+
+class Usuario {
+   - id: Integer
+   - login: String
+   - senha: String
+}
+
+class Venda {
+   - id: Integer
+}
+
+
+Venda "1" *- ->  "*" Item
+
+PessoaFisica -up-|> Pessoa
+PessoaJuridica -up-|> Pessoa
+
+Pessoa "1" *- -> "*" Endereco
+
+Endereco "*" o- -> "1" Cidade
+
+Cidade "*" - -> "1" Estado
+
+Livro "*" - -> "*" Autor
+Livro "*" o- -> "1" Editora
+
+Item "*" o- -> "1" Livro
+
+Funcionario -|> Usuario
+Funcionario "*" - -> "1" TipoFuncionario
+Funcionario "1" - -> "1" PessoaFisica
+
+Editora "1" - -> "1" PessoaJuridica
+
+Cliente -|> Usuario
+Cliente "1" - -> "1" Pessoa
+Cliente "*" - -> "*" Livro : "listaDesejo"
+
+Autor "1" - -> "1" PessoaFisica
+
+Carrinho "1" *- -> "*" Item
+Carrinho "1" *- -> "1" Venda
+Carrinho "*" - -> "1" Cliente
+
+Usuario "1" - -> "*" Telefone
+
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 06:35:57 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_265-b01
+Operating System: Linux
+Default Encoding: ANSI_X3.4-1968
+Language: en
+Country: US
+--></g></svg>
