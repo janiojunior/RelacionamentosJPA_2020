@@ -35,9 +35,9 @@ public class Teste02 {
 		em.persist(a1);
 		
 		// Salvando 2o autor
-//		Autor a2 = new Autor();
-//		a2.setPessoaFisica(pf);
-//		em.persist(a2);		
+		Autor a2 = new Autor();
+		a2.setPessoaFisica(pf);
+		em.persist(a2);		
 		
 		em.getTransaction().commit();
 		
